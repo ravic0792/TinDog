@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+       /* Multiple Selector */
+       h1,p{
+        color: red;
+       }
+       .bac.head{
+         color: blue;
+        }
+       /* Hierarchial Selector */
+       .container .title{
+        color: rgb(199, 232, 14);
+       }
+       .box .head{
+        color: darkcyan;
+       }
+       .box .para{
+        color: rgb(224, 135, 19);
+       }
+       /* combined selector */
+       
+        p.para{
+          color: yellow;
+        }
+        
+        
+  </style>
+</head>
+<body>
+     <div class="box"> 
+      <h1 class="head bac">I Love Bacon</h1>
+      <p class="para">Bacon Bacon Bacon Bacon Bacon Bacon</p>
+    </div>
+
+    <div class="container">
+       <h1 class="title" >Hello World!</h1>
+    </div>
+    <div class="container-fluid">
+        <h1 class="title">Good Bye!</h1>
+    </div>
+</body>
+</html>
